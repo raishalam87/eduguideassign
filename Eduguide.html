@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduguide | Country Guide</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <h1>Eduguide</h1>
+        <button class="navbar-toggle" onclick="toggleNavbar()">☰</button>
+        <div class="navbar-links" id="navbarLinks">
+            <a href="#">Home</a>
+            <a href="#">Destinations</a>
+            <a href="#">Guides</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <header>
+        <p>Explore top study destinations and learn all you need to know!</p>
+    </header>
+
+    <div class="container">
+        <div class="tabs">
+            <div class="tab active" onclick="showGuide(event, 'usa')">USA</div>
+            <div class="tab" onclick="showGuide(event, 'uk')">UK</div>
+            <div class="tab" onclick="showGuide(event, 'canada')">Canada</div>
+            <div class="tab" onclick="showGuide(event, 'australia')">Australia</div>
+        </div>
+
+        <div class="guides" id="guideContainer">
+            <!-- Guide cards inserted by JavaScript -->
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Eduguide. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+    <script>
+
+    </script>
+</body>
+
+</html>
